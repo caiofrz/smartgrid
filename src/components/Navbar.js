@@ -6,9 +6,6 @@ const Navbar = () => {
     <div>
       <div class="nav-barmenu">
         <div class="barmenu">
-          <a href=" " class="logo">
-            CLG Energia
-          </a>
           <div class="navbar">
             <nav>
               <li>
