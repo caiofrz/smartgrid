@@ -1,10 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Home/Home_style.css';
+
 const Navbar = () => {
   return (
     <div>
       <div class="nav-barmenu">
         <div class="barmenu">
-          <a href="" class="logo">
-            clg Energia
+          <a href=" " class="logo">
+            CLG Energia
           </a>
           <div class="navbar">
             <nav>
