@@ -2,13 +2,13 @@ import './InicialPage_style.css';
 
 import { useNavigate } from "react-router-dom";
 
-const InicialPage = () =>{
+const InicialPage = () => {
 
     const navigate = useNavigate();
 
     return(
-        <div>
-            <section className="home">
+        <div onLoad={alert('Seja bem vindo(a)! Clique em "Saiba Mais" e aprenda tudo sobre Smart Grid!')}>
+            <section className="home" >
                 <video autoPlay muted loop className="player">
                     <source src="/Pexels Videos 1085656.mp4" type="video/mp4"/>
                 </video>
@@ -23,7 +23,7 @@ const InicialPage = () =>{
                                     <div className="button" onClick={() => {
                                         navigate("/components/Home/Home")
                                     }}>
-                                        <a href="" className="read-more">
+                                        <a href=" " className="read-more">
                                             Saiba Mais
                                         </a>
                                     </div>

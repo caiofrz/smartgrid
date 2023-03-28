@@ -1,5 +1,5 @@
-import './Home_style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Home_style.css';
 
 import Navbar from '../Navbar.js';
 import Header from '../Header';
@@ -18,7 +18,7 @@ const Home = () => {
                                 <Navbar />
                             </div>
                         </div>
-                        </div>
+                    </div>
                     <div className="content-paralax">
                         <h1>Smart Grid</h1>
                         <h2>
