@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/smartgrid/static/css/main.0d2ae546.css",
+    "main.js": "/smartgrid/static/js/main.c8e79746.js",
+    "static/js/787.b46a5f49.chunk.js": "/smartgrid/static/js/787.b46a5f49.chunk.js",
+    "static/media/cidade_inteligente.jpg": "/smartgrid/static/media/cidade_inteligente.2d270cda51c0e6417711.jpg",
+    "static/media/homem-trabalhador-no-firld-pelos-paineis-solares.jpg": "/smartgrid/static/media/homem-trabalhador-no-firld-pelos-paineis-solares.26c589c2175d2ec28382.jpg",
+    "static/media/ajuste-do-sol-atras-da-silhueta-das-torres-de-eletricidade.jpg": "/smartgrid/static/media/ajuste-do-sol-atras-da-silhueta-das-torres-de-eletricidade.9b827e7ec687d439dbdf.jpg",
+    "static/media/3324.jpg": "/smartgrid/static/media/3324.4c29ebd6c7354fb318ba.jpg",
+    "index.html": "/smartgrid/index.html",
+    "main.0d2ae546.css.map": "/smartgrid/static/css/main.0d2ae546.css.map",
+    "main.c8e79746.js.map": "/smartgrid/static/js/main.c8e79746.js.map",
+    "787.b46a5f49.chunk.js.map": "/smartgrid/static/js/787.b46a5f49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d2ae546.css",
+    "static/js/main.c8e79746.js"
+  ]
+}
