@@ -1,6 +1,5 @@
 import './Home_style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './Home/js/script.js'
 
 import Navbar from '../Navbar.js';
 import Header from '../Header';
@@ -65,11 +64,9 @@ const Home = () => {
                                     sólido e circuitos digitais discretos.
                                 </p> 
                             </div>
-                        <div className="video">
-                            <video autoplay muted loop id="player">
-                                <source src="0325.mp4" type="video/mp4" />
-                            </video>
-                        </div>
+                            <div className="imgme">
+                                <img src="420-removebg-preview.png" alt="" />
+                            </div>
                     </div>
                     </div>
                 <div className="content-section">
