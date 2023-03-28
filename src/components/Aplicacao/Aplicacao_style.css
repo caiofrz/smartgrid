@@ -1,0 +1,343 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none !important;
+    list-style: none;
+    
+}
+header{
+    width: 100%;
+    color: #5b8fb9;
+    background-color: #000;
+}
+.header-content{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header .header-contact li,i{
+    padding: 5px 10px;
+}
+header .header-contact{
+    display: flex;
+}
+header .social-media{
+    display: flex;
+    align-items: center;
+}
+header .social-media a{
+    color: #5b8fb9;
+}
+header .social-media a:hover{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 0.1s;
+}
+
+.titles{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 2.5rem;
+}
+
+.nav-barmenu{
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.barmenu{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar nav{
+    display: flex;
+    z-index: 10;
+}
+.navbar nav li a,.logo{
+    padding: 10px;
+    color: #5b8fb9;
+}
+.navbar nav li a:hover{
+    color: #fff;
+}
+.container-aboutme{
+    color: #fff;
+    background-color: #00042e;
+    width: 100%;
+    height: 100vh;
+}
+.container-aboutme .content-aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.content-aboutme .imgme, .aboutme{
+    width: 50%;
+   
+}
+.content-aboutme .imgme img{
+    width: 100%;
+}
+
+.content-aboutme .aboutme, p{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#010011;
+    height: 100vh;
+}
+
+/*===========paralax=======*/
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    height: 100vh !important;
+    width: 100%;   
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -moz-background-size:cover ;
+}
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%,#00042e 100%);
+    background: -o-linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%,#00042e 100%);
+    background: -moz-linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%,#00042e 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%,#00042e 100%);
+}
+section.module.parallax-1{
+    background-image: url(/public/ajuste-do-sol-atras-da-silhueta-das-torres-de-eletricidade.jpg);
+}
+section.module.parallax .content-paralax{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    padding-bottom: 10%;
+    margin:auto;
+    max-width: 1200px;
+    height: 100vh;
+}
+.content-paralax a.btn{
+    margin: 15px 0px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 0px 30px 0px 30px ;
+    background-color: transparent;
+    transition: .5s;
+    z-index: 10;
+}
+.content-paralax a.btn:hover{
+    border: 1px solid transparent;
+    background-color: #301e67;
+    color:#000;
+    z-index: 9;
+}
+.content-paralax h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    width: 50%;
+}
+.content-paralax h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    color: #5b8fb9;
+}
+/*===========Serviços=======*/
+.section-concept{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.content-concept{
+    color: #00042e !important;
+    display: flex;
+    max-width: 1000px;
+    margin:auto;
+}
+.section-concept h3{
+    margin-top: 30px;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.line{
+    width: 50%;
+    padding-top: 30px;
+}
+.video{
+    width: 50%;
+}
+#player{
+    width: 600px;
+    height: 400px;
+    padding: 30px;
+}
+
+/*==========================*/
+.cardcontent{
+    margin: auto;
+    max-width: 1100px;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.cards{
+    width: 500px;
+    padding-left: 15px;
+    padding: 10px;
+    background-color: #fff;
+}
+.cards h2{
+    padding: 10px;
+}
+.cards i{
+    padding: 20px;
+    border: 1px solid #38905e;
+    color: #38905e;
+}
+.cards:hover i{
+    border: 7px double #dcdcdc;
+    padding: 25px;
+    transition: 0.5s;
+    background-color: #38905e;
+    color: #dcdcdc;
+}
+
+/*==========================*/
+.aplication{
+    background-color: #000;
+    height: 400px;
+    width: 100%;
+}
+.content-aplication{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.container-cards{
+    background-color: #000;
+    height: 700px; 
+}
+.content-cards{
+    margin: auto;
+    max-width: 1000px;
+}
+.boxcards{
+    display: flex;
+    padding: 20px;
+}
+.cards{
+    width: 33.3%;
+    text-align: center;
+    max-height: 600px;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.8);
+}
+.cards h3,p{
+    padding: 10px;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    height: 40%;
+}
+.img{
+    height: 60%;
+}
+.article{
+    width: 100%;
+    display: flex;
+    background-color: #f9f2f2;
+    height: 500px;
+}
+.content-article{
+    margin: auto;
+    max-width: 1000px;
+}
+.content-section{
+    display: flex;
+    height: 100vh;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 40%,#00042e 100%), url(/public/homem-trabalhador-no-firld-pelos-paineis-solares.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.section{
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 20px;
+    color: #fff;
+    padding: 40px;
+    max-width: 1200px;
+    margin:auto;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #00042e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+   
+
+footer p{
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+/*===========Contatos=======*/
+
+.init-hidden{
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.init-hidden-off{
+    opacity: 1;
+}
+

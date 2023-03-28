@@ -1,0 +1,127 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section.home{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #020e26;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+.player{
+    position: fixed;
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+}
+.content{
+    z-index: 10;
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+}
+.content-navbar{
+    width: 992px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    z-index: 30;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.6);
+    height: 96px;
+}
+.navbar .logo{
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+.navbar ul li{
+    font-weight: 300;
+}
+.navbar ul li .icon{
+    line-height: 0.9;
+    font-weight: 300;
+}
+.navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+.navbar ul li a:hover{
+    transition: 1s;
+    padding: 5px 11px;
+    border: 1px solid #fff;
+    border-radius: 0 16px;
+}
+.content-headline{
+    width: 992px;
+    margin: auto;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.headline h2{
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    max-width: 512px;
+}
+.headline p{
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 512px;
+}
+.headline .button{
+    margin-top: 32px;
+}
+.headline .button a{
+    border: 1px solid #fff;
+    width: 400px;
+    padding: 15px 26px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 15px;
+}
+.headline .button a:hover{
+    padding: 15px 26px;
+    border: 1px solid #fff;
+    border-radius: 0 16px;
+}
+section.about{
+    margin-top: 100vh;
+    position: absolute;
+    z-index: 10;
+    height: 1000px;
+    width: 100%;
+    background-color: #020e26;
+}
