@@ -1,6 +1,11 @@
 import './InicialPage_style.css';
 
+import { useNavigate } from "react-router-dom";
+
 const InicialPage = () =>{
+
+    const navigate = useNavigate();
+
     return(
         <div>
             <section className="home">
@@ -15,8 +20,10 @@ const InicialPage = () =>{
                                     <p>
                                     As Smarts Grids (Redes Inteligentes) são redes elétricas que podem integrar de forma inteligente e dinâmica as ações de todos os usuários conectados a elas — aqueles que geram energia, aqueles que a consomem ou aqueles que fazem ambas as coisas — a fim de fornecer eletricidade de forma eficiente, sustentável, econômica e segura.  
                                     </p>
-                                    <div className="button">
-                                        <a href="./Home/Home.js" className="read-more">
+                                    <div className="button" onClick={() => {
+                                        navigate("/components/Home/Home")
+                                    }}>
+                                        <a href="" className="read-more">
                                             Saiba Mais
                                         </a>
                                     </div>

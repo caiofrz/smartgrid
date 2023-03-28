@@ -46,7 +46,7 @@ const Home = () => {
                                 poucos segundos</p>
                         </div>
                         <div className="imgme">
-                            <img src="418-removebg-preview.png" alt="" />
+                            <img src="/418-removebg-preview.png" alt="" />
                         </div>
                         
                     </div>
@@ -65,7 +65,7 @@ const Home = () => {
                                 </p> 
                             </div>
                             <div className="imgme">
-                                <img src="420-removebg-preview.png" alt="" />
+                                <img src="/420-removebg-preview.png" alt="" />
                             </div>
                     </div>
                     </div>
