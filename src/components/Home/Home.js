@@ -1,94 +1,59 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home_style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from '../Navbar.js';
 import Header from '../Header';
 
 const Home = () => {
-
     return(
-        <div>   
+        <div>
             <Header />
             <main>
                 <section className="module parallax parallax-1">
                     <div className="nav-barmenu">
                         <div className="barmenu">
-                            <a href=" " className="logo">CLG Energia</a>
-                            <div className="navbar">
-                                <Navbar />
-                            </div>
+                        <a href=" " className="logo">CLG Energia</a>
+                        <div className="navbar">
+                            <Navbar />
+                        </div>
                         </div>
                     </div>
                     <div className="content-paralax">
-                        <h1>Smart Grid</h1>
+                        <h1>Smart Grids</h1>
                         <h2>
-                            ​​​​​​​​As Smart Grids são compostas de uma série de automações e tecnologias que objetivam, principalmente, conferir segurança, comodidade e sustentabilidade ao fornecimento de energia
+                            ​​​​​​​​As Smart Grids são compostas de uma série de automações e tecnologias que objetivam, principalmente, conferir segurança, comodidade e sustentabilidade ao fornecimento de energia. Os novos modelos de consumo elétrico exigem redes de distribuição mais modernas e complexas.                
                         </h2>
                     </div>
                 </section>
                 <section className="container-aboutme">
-                    <br /><h2 className="titles">Conceito</h2>
+                    <br/><h2 className="titles">O que são Smart Grids?</h2>
                     <div className="content-aboutme">
                         <div className="imgme">
-                            <img src="/19036-removebg-preview.png" alt="" /> 
-                        </div>
-                        <div className="aboutme">
-                            <p>A descarbonização da economia e a inovação digital trazem consigo inovadoras redes de distribuição para os novos modelos de consumo elétrico. A bidirecionalidade, flexibilidade, digitalização e automatização das smart grids tornam possível um novo mapa interconectado que responde às necessidades dos usuários e produtores de energia. As redes elétricas inteligentes também garantem a incorporação de mais fontes de energias renováveis e se posicionam como um pilar vital para a transição energética.</p>
-                        </div>
-                    </div>
-                    </section>
-                    <section className="container-aboutme about2">
-                    <div className="content-aboutme">
-                        <div className="aboutme">
-                            <p>O diferencial das Smart Grids é incorporar a transformação digital para facilitar a
-                                bidirecionalidade de energia e informações. Isso é feito graças a um alto grau de
-                                automação que responde a necessidades complexas e a potenciais incidentes em
-                                poucos segundos</p>
-                        </div>
-                        <div className="imgme">
-                            <img src="/418-removebg-preview.png" alt="" />
-                        </div>
+                            <img src="/2010.jpg" alt=""/>
                         
+                        </div>
+                        <div className="aboutme">
+                            <p>No atual cenário, a energia sai das geradoras e chega até às nossas casas, escritórios, escolas e afins.
+                                Com a Smart Grid, a proposta é que o fluxo aconteça de maneira mais dinâmica e bidirecional, ou seja, o consumidor se torna capaz de fazer a sua contribuição com o sistema, gerando boa parte da energia injetada na rede elétrica.
+                            </p>
+
+                            <p>
+                                Assim, o sistema como um todo pode trabalhar de uma maneira mais adequada, com o fluxo de energia controlado e se tornando mais sustentável.
+                                Tudo isso se torna possível pois as Smarts Grids permitem a integração das ações de todos os usuários que são conectados a elas, desde os que geram energia até os que consomem e também os que fazem os dois.
+                            </p>
+
+                            <p>
+                                Então, podemos concluir que toda proposta das Smarts Grids gira em torno de transformar a eletricidade em algo mais digital, para facilitar a troca de energia por meio de automações capazes de responder às necessidades complexas e alguns incidentes em apenas alguns segundos.
+                            </p>
+                        </div>
                     </div>
-                    </section>
-                    <div className="section-concept">
-                        <h3>​​​​​​​​As Smart Grids são compostas de uma série de automações e tecnologias que objetivam, principalmente, conferir segurança, comodidade e sustentabilidade ao fornecimento de energia. Mas, como surgiu?</h3>
-                        <div className="content-concept">
-                            <div className="line">
-                                <p>Instintivamente, durante o ano de 1888, Oliver Shallenberger criou um dispositivo
-                                    que supria essa necessidade de medir o consumo de energia elétrica de um usuário
-                                    sendo o primeiro medidor de energia elétrica ou electricity meter.<br /><br />
-                                    Essa tecnologia surgiu de tentativas anteriores de uso do controle eletrônico,
-                                    medição e monitoramento, com equipamentos que evoluíram de elementos
-                                    eletromecânicos para equipamentos de tecnologia eletrônica analógica em estado
-                                    sólido e circuitos digitais discretos.
-                                </p> 
-                            </div>
-                            <div className="imgme">
-                                <img src="/420-removebg-preview.png" alt="" />
-                            </div>
-                    </div>
-                    </div>
-                <div className="content-section">
-                    <div className="section">
-                        <p>Ao garantir que todos os componentes da rede — de transformadores e linhas de 
-                            energia a medidores elétricos domésticos, comerciais e industriais — tenham 
-                            endereços IP e sejam capazes de usar a comunicação bidirecional, a empresa pode 
-                            gerenciar a distribuição de forma mais eficiente. Além disso, pode ser proativa na 
-                            manutenção e responder a interrupções mais rapidamente.
-                            Outro componente importante da tecnologia de redes inteligentes é a automação. <br />Basicamente, estamos falando de:</p>
-                        <ul>
-                            <li>● comunicação automatizada integrada entre componentes da rede elétrica;</li>
-                            <li>● tecnologias de detecção e medição;</li>
-                            <li>● controles automatizados para distribuição e reparos;</li>
-                            <li>● melhor gestão de dashboards e softwares de apoio à decisão</li>
-                        </ul>    
-                    </div>
-                </div>
+                </section>
             </main>
-            <footer>
-                    <p>Copyright © clg energy- 2023 Todos os diteitos reservados</p>
-            </footer>
+    <div className="content-section">    
+    </div>
+    <footer>
+         <p>Copyright © clg energy- 2023 Todos os diteitos reservados</p>
+    </footer>
         </div>
     );
 }
