@@ -13,7 +13,7 @@ const Aplicacao = () => {
                 <section className="module parallax parallax-1">
                     <div className="nav-barmenu">
                         <div className="barmenu">
-                        <a href=" " className="logo">clg Energia</a>
+                        <a href=" " className="logo">CLG Energia</a>
                         <div className="navbar">
                             <Navbar />
                         </div>

@@ -72,7 +72,7 @@ const Exemplos = () => {
                             </p> 
                     </div>
                     <div className="video">
-                            <img src="/sodium_battery_animation_final.gif" type="gif" id="player"/> 
+                        <img src="sodium_battery_animation_final.gif" type="gif" id="player"/> 
                     </div>
                     </div>
                 </div>
