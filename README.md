@@ -1,7 +1,7 @@
 
 # Landing Page - Smart Grid
 
-Este projeto trata-se de uma página web sobre a tecnologia smart grid. Foi desenvolvido como trabalho final da disciplina de Desenvolvimento Web I e Redes II.
+Este projeto trata-se de uma página web sobre a tecnologia smart grid. Foi desenvolvido como trabalho final das disciplinas de Desenvolvimento Web I e Redes II.
 
 ## Stack utilizada
 
